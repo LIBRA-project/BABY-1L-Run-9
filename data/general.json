@@ -91,8 +91,8 @@
     },
     "other_irradiations": {
         "present": true,
-        "irradiations":{
-            "1":{
+        "periods":[
+            {
                 "start": "6/17/2025 9:30",
                 "end": "6/17/2025 17:00",
                 "neutron_time":{
@@ -108,7 +108,7 @@
                 "rate_proxy": "Max settings",
                 "notes": "Encased in Pb+HDPE moderator sleeve"
             }
-        }
+        ]
     },
     "neutron_detection": {
         "foils": {
