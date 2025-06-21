@@ -83,6 +83,33 @@
         }
     ],
     "notes": "nGen positioned 105 cm above the floor, 100 cm away from the salt axis (measured from outside the heater tube to center axis of nGen) in the y direction, parallel to the x axis (long edge of epoxy table). Generator reached 350 uA only after cycling on and off, but the current briefly overshot to >500 uA on second start.",
+    "shielding":{
+        "enabled": true,
+        "placed_on": "6/16/2025 20:00",
+        "removed_on": null,
+        "notes":"Bricks from NRL storage (8in x 4in x 2in, brown, likely borated phenolic laminate, dsty 1.42 g/ccm) placed around the four sides of the vessel. Double layer (4in thickness) on the direct neutron path, single on the other sides. Placed after the run to shield from other group's irradiation."
+    },
+    "other_irradiations": {
+        "present": true,
+        "irradiations":{
+            "1":{
+                "start": "6/17/2025 9:30",
+                "end": "6/17/2025 17:00",
+                "neutron_time":{
+                    "value": 7,
+                    "unit": "h"
+                },
+                "generator": "P383",
+                "duty_factor": "0.032",
+                "distance": {
+                    "value": 250,
+                    "unit": "cm"
+                },
+                "rate_proxy": "Max settings",
+                "notes": "Encased in Pb+HDPE moderator sleeve"
+            }
+        }
+    },
     "neutron_detection": {
         "foils": {
             "enabled": true,
